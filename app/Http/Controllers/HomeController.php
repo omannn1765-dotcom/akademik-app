@@ -10,7 +10,7 @@ class HomeController extends Controller
     {
         $data = [
             'title' => 'Home',
-            'nama' => 'Maulana Rizky Abdullah',
+            'nama' => 'Abdur Rohman',
             'matkul' => 'Pemrograman Web Lanjut',
             'kampus' => 'STMIK Antar Bangsa',
             'daftarMateri' => ['Pengenalan Laravel', 'Routing', 'Controller', 'Blade Template']
@@ -24,7 +24,7 @@ class HomeController extends Controller
             'title' => 'About',
             'aplikasi' => 'Akademik App',
             'versi' => '1.0',
-            'pembuat' => 'Maulana Rizky Abdullah'
+            'pembuat' => 'Abdur Rohman'
         ];
         return view('about', $data);
     }
@@ -33,9 +33,9 @@ class HomeController extends Controller
     {
         $data = [
             'title' => 'Profile',
-            'nama' => 'Maulana Rizky Abdullah',
-            'nim' => '2410054',
-            'kelas' => 'Informatika'
+            'nama' => 'Abdur Rohman',
+            'nim' => '2410047',
+            'kelas' => 'Teknik Informatika'
         ];
         return view('profile', $data);
     }
