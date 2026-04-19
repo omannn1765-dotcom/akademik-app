@@ -9,11 +9,10 @@ class HomeController extends Controller
     public function index()
     {
         $data = [
-            'title' => 'Home',
-            'nama' => 'Abdur Rohman',
-            'matkul' => 'Pemrograman Web Lanjut',
-            'kampus' => 'STMIK Antar Bangsa',
-            'daftarMateri' => ['Pengenalan Laravel', 'Routing', 'Controller', 'Blade Template']
+            'Title' => 'Home',
+            'Nama' => 'Abdur Rohman',
+            'MataKuliah' => 'Pemrograman Web Lanjut',
+            'Kampus' => 'STMIK Antar Bangsa',
         ];
         return view('home', $data);
     }
